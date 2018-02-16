@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainViewController: UIViewController {
+    
+    var collectionView:UICollectionView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = .white
+        navigationItem.title = "UICollectionView"
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +25,5 @@ class ViewController: UIViewController {
 
 
 }
+//extension MainViewController:
 
