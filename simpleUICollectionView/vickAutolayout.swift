@@ -5,20 +5,24 @@
 //  Created by Vikentor Pierre on 2/15/18.
 //  Copyright © 2018 Vikentor Pierre. All rights reserved.
 //
+//  this UIView extension helps us with our autoConstraint it is't needed but helps a lot
 
 import UIKit
 extension UIView{
     
+    // this func  makes a uiview the same size as the view it is inside
     func vickFillSuperView(){
         vickAnchor(top: superview?.safeAreaLayoutGuide.topAnchor, leading: superview?.safeAreaLayoutGuide.leadingAnchor, bottom: superview?.safeAreaLayoutGuide.bottomAnchor, trailing: superview?.safeAreaLayoutGuide.trailingAnchor)
     }
     
     // this function gives a view another views width and height
     func vickAnchorSize(to view: UIView){
+        translatesAutoresizingMaskIntoConstraints = false
         widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
     }
     
+    // this func add the top leading bottom trailing Constant and size cinstraint to a View
     func vickAnchor(top: NSLayoutYAxisAnchor?, leading: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, trailing: NSLayoutXAxisAnchor?, padding: UIEdgeInsets = .zero, size:CGSize = .zero){
         translatesAutoresizingMaskIntoConstraints = false
         

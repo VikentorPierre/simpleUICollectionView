@@ -52,12 +52,14 @@ class MainViewController: UIViewController {
 
 }
 
+// our DataSource Structure
 struct SeaFood{
     var image:String?
     var type: String?
     
 }
 
+// we extend MainViewController to make our file clean and look nice 
 extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
     
     //specifying the number of section in the collectionView

@@ -15,11 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.makeKeyAndVisible()
-        let mainVC = MainViewController()
+        
+        window = UIWindow(frame: UIScreen.main.bounds) // makes the UIWindow
+        
+        window?.makeKeyAndVisible() // makes the UIWindow visible
+        
+        let mainVC = MainViewController()  // init the MainViewController ViewController
+        
+        // set the root controller to a uiNavigationController and set the rooViewController to MainVC
         window?.rootViewController = UINavigationController(rootViewController: mainVC)
-        UINavigationBar.appearance().isTranslucent = false
+        
+        UINavigationBar.appearance().isTranslucent = false // this line just remove thr transparency in our nav bar
+        
         return true
     }
 
