@@ -26,17 +26,11 @@ class CusCell: UICollectionViewCell{
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     func setupCusCellLayout(){
         foodImageView = UIImageView(frame: contentView.frame)
         foodImageView.contentMode = .scaleAspectFill
         foodImageView.clipsToBounds = true
-        //foodImageView.layer.borderWidth = 2
-        //foodImageView.layer.borderColor = UIColor.blue.cgColor
-        
-        contentView.addSubview(foodImageView)
-        
-    }
-    
-}
+        contentView.addSubview(foodImageView)    }
+} //endOfClass
 
