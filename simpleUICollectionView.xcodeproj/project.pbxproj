@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		263BB76C203696DC007790AB /* vickAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BB76B203696DC007790AB /* vickAutolayout.swift */; };
 		2684938C2037517A005DD96D /* CusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684938B2037517A005DD96D /* CusCell.swift */; };
 		26CAFFCC2036558B00F428F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAFFCB2036558B00F428F0 /* AppDelegate.swift */; };
 		26CAFFCE2036558B00F428F0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAFFCD2036558B00F428F0 /* MainViewController.swift */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		263BB76B203696DC007790AB /* vickAutolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vickAutolayout.swift; sourceTree = "<group>"; };
 		2684938B2037517A005DD96D /* CusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusCell.swift; sourceTree = "<group>"; };
 		26CAFFC82036558B00F428F0 /* simpleUICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleUICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CAFFCB2036558B00F428F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 		26CAFFCA2036558B00F428F0 /* simpleUICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				263BB76B203696DC007790AB /* vickAutolayout.swift */,
 				26CAFFCB2036558B00F428F0 /* AppDelegate.swift */,
 				26CAFFCD2036558B00F428F0 /* MainViewController.swift */,
 				2684938B2037517A005DD96D /* CusCell.swift */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263BB76C203696DC007790AB /* vickAutolayout.swift in Sources */,
 				2684938C2037517A005DD96D /* CusCell.swift in Sources */,
 				26CAFFCE2036558B00F428F0 /* MainViewController.swift in Sources */,
 				26CAFFCC2036558B00F428F0 /* AppDelegate.swift in Sources */,
